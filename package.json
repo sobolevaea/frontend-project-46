@@ -16,7 +16,7 @@
   "bin": {
     "gendiff": "./bin/gendiff.js"
   },
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,9 +24,11 @@
     "@eslint/js": "^9.31.0",
     "@stylistic/eslint-plugin": "^5.2.0",
     "eslint": "^9.31.0",
-    "globals": "^16.3.0"
+    "globals": "^16.3.0",
+    "jest": "^30.0.4"
   },
   "dependencies": {
-    "commander": "^14.0.0"
+    "commander": "^14.0.0",
+    "lodash": "^4.17.21"
   }
 }
