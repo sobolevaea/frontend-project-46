@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import _ from 'lodash'
-import { parse } from './parse.js'
+import { parse } from './parsers.js'
 
 const getFormat = (filepath) => {
   return
