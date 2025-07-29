@@ -5,6 +5,6 @@ export const parse = (data, format) => {
     return JSON.parse(data)
   }
   if (format === '.yml' || format === '.yaml') {
-    return yaml.load(data, 'utf8')
+    return yaml.load(data)
   }
 }
