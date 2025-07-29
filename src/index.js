@@ -3,9 +3,7 @@ import path from 'path'
 import _ from 'lodash'
 import { parse } from './parsers.js'
 
-const getFormat = (filepath) => {
-  return
-}
+const getFormat = filepath => path.extname(filepath)
 
 const getData = (filepath) => {
   const fullPath = path.resolve(process.cwd(), filepath)
