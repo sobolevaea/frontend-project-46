@@ -8,3 +8,6 @@
 
 ## for YAML
 [![asciicast](https://asciinema.org/a/HBt559ryWTykP03Uo5VHNlXwA.svg)](https://asciinema.org/a/HBt559ryWTykP03Uo5VHNlXwA)
+
+## Stylish
+[![asciicast](https://asciinema.org/a/X2Kp7xbJcbYF8gcsFPov8wZmH.svg)](https://asciinema.org/a/X2Kp7xbJcbYF8gcsFPov8wZmH)
