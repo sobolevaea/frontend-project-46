@@ -1,6 +1,6 @@
 import _ from 'lodash'
 
-const builder = (lines, bracketIndent) => ['{', ...lines, `${bracketIndent}}`,].join('\n')
+const builder = (lines, bracketIndent) => ['{', ...lines, `${bracketIndent}}`].join('\n')
 
 const iter = (currentValue, depth, spacesCount, replacer = ' ') => {
   if (!_.isObject(currentValue)) {
