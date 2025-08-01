@@ -21,7 +21,7 @@ const iter = (currentValue, depth, spacesCount, replacer = ' ') => {
   return builder(lines, bracketIndent)
 }
 
-export default formatStylish = (tree, depth = 1) => {
+const formatStylish = (tree, depth = 1) => {
   const spacesCount = 4
   const replacer = ' '
 
@@ -49,3 +49,5 @@ export default formatStylish = (tree, depth = 1) => {
 
   return builder(lines, bracketIndent)
 }
+
+export default formatStylish
