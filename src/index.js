@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import _ from 'lodash'
 import { parse } from './parsers.js'
-import { formatStylish } from './stylish.js'
+import getFormatter from '../formatters/index.js'
 
 const getFormat = filepath => path.extname(filepath)
 
@@ -53,12 +53,13 @@ const buildTree = (data1, data2) => {
   })
 }
 
-const genDiff = (filepath1, filepath2, formatter = 'stylish') => {
+const genDiff = (filepath1, filepath2, formatName = 'stylish') => {
   const data1 = getData(filepath1)
   const data2 = getData(filepath2)
 
   const tree = buildTree(data1, data2)
-  return formatStylish(tree)
+  const formatter = getFormatter(formatName)
+  return formatter(tree)
 }
 
 export default genDiff
