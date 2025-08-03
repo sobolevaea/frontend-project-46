@@ -1,4 +1,4 @@
-import _ from "lodash"
+import _ from 'lodash'
 
 const getValue = (value) => {
   if (_.isObject(value)) {
@@ -11,7 +11,7 @@ const getValue = (value) => {
 }
 
 const formatPlain = (tree, parentName = '') => {
-  const elements = tree.map(el => {
+  const elements = tree.map((el) => {
     const fullName = parentName ? `${parentName}.${el.key}` : el.key
 
     switch (el.type) {
@@ -31,7 +31,6 @@ const formatPlain = (tree, parentName = '') => {
   })
 
   return elements.filter(Boolean).join('\n')
-  // console.log(elements.filter(Boolean).join('\n'))
 }
 
 export default formatPlain
