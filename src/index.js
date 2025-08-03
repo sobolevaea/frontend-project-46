@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import _ from 'lodash'
 import { parse } from './parsers.js'
-import getFormatter from '../formatters/index.js'
+import getFormatter from './formatters/index.js'
 
 const getFormat = filepath => path.extname(filepath)
 
