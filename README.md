@@ -11,3 +11,6 @@
 
 ## Stylish
 [![asciicast](https://asciinema.org/a/X2Kp7xbJcbYF8gcsFPov8wZmH.svg)](https://asciinema.org/a/X2Kp7xbJcbYF8gcsFPov8wZmH)
+
+## Plain
+[![asciicast](https://asciinema.org/a/VFwQqkTcCI3rLVeq6FTxTRXBJ.svg)](https://asciinema.org/a/VFwQqkTcCI3rLVeq6FTxTRXBJ)
